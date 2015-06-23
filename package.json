@@ -1,6 +1,6 @@
 {
   "name": "koproxy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "server/app.js",
   "dependencies": {
     "body-parser": "~1.12.4",
@@ -15,7 +15,10 @@
     "lodash": "~3.9.3",
     "method-override": "~2.3.3",
     "morgan": "~1.5.3",
-    "serve-favicon": "~2.2.1"
+    "querystring": "^0.2.0",
+    "request": "^2.58.0",
+    "serve-favicon": "~2.2.1",
+    "url": "^0.10.3"
   },
   "devDependencies": {
     "coffeelint": "~1.9.7",
